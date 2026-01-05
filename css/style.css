@@ -8928,6 +8928,15 @@ h1, h2, h3, h4, h5,
 #ftco-loader {
   pointer-events: none;
 }
+@media (max-width: 768px) {
+  .hero,
+  .home-slider,
+  .slider-item {
+    height: auto !important;
+    min-height: 100vh;
+    overflow: visible !important;
+  }
+}
 
 .skill-items {
   color: #ccc;
